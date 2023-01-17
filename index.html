@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Passion cloud.com</title>
+</head>
+<body>
+   <!----------------------------------templet 1------------------->  
+     <div class="template_one" id="home-one">
+
+     	<div class="inner_text">
+
+     	   <h1>CHOOSE YOUR CAREER</h1>
+     	   <p >SHINE FOR YOUR FUTURE</p>
+
+        </div>
+
+        <div class="impting_symbol" >
+        	<a href="#home"><i class="fa fa-arrow-down"></i></a>
+        </div>
+
+        <div class="survive_divition">
+        	<p>START YOUR SERVAE HERE TO TALK WITH US!</p>
+        	<br>
+        	<h5> WITH PASSION CLOUD <i class="fa fa-cloud"></i></h5>
+        </div>
+     </div>
+
+<!---------------------------------------template 2------------------------------------>     
+
+    <div class="template_two" id="home">
+
+    	<div class="image_templet" >
+    		<img src="bgone.png" class="change">
+    	</div>
+      <div class="selector">
+         <a href="#end" onclick="changer('bg3.jpg')">Computer</a>
+         <a href="#end" onclick="changer('bg6.jpg')">Mechanical</a>
+         <a href="#end" onclick="changer('bg5.jpg')">Electrical</a>
+         <a href="#end" onclick="changer('bg4.jpg')">Electronics</a>
+      </div>
+
+    </div>
+ <!------------------------------end template------------------------------------------>
+     <div class="end-template" id="end">
+         <div class="text-end">
+           <a href="#">Let's Start Now..!</a> 
+           <a href="#home-one"><i class="fa fa-arrow-up"></i></a>
+        </div>
+
+     </div>   
+
+<!---------------------------scrpt tag-usage-------------------------------------------->    
+<script>
+   function changer(img){
+    
+    document.querySelector('.change').src=img;
+
+}
+</script>
+</body> 
+</html>
